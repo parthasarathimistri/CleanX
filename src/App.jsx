@@ -17,6 +17,7 @@ const getIcon = (severity, status) => {
   });
 };
 
+
 // Component to handle asking for GPS on load and flying to user location
 const LocationInitializer = () => {
   const map = useMap();
