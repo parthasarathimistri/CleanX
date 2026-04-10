@@ -33,6 +33,7 @@ const getIcon = (severity, status) => {
   });
 };
 
+
 export default function App() {
   const [user] = useAuthState(auth);
   const [reports, setReports] = useState([]);
