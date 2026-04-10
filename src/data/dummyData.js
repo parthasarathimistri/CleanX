@@ -1,8 +1,8 @@
 export const initialReports = [
-  { id: 1, lat: 12.8235, lng: 80.0435, severity: 'High', status: 'Reported', photo: 'https://images.unsplash.com/photo-1530587191325-3db32d826c18?w=200&q=80', desc: 'Massive pile of plastic and medical waste dumped near the back gate.' },
-  { id: 2, lat: 12.8210, lng: 80.0450, severity: 'Medium', status: 'Reported', photo: 'https://images.unsplash.com/photo-1605600659908-0ef719419d41?w=200&q=80', desc: 'Overflowing public bins, stray dogs scattering it everywhere.' },
-  { id: 3, lat: 12.8255, lng: 80.0420, severity: 'Low', status: 'In Progress', photo: 'https://images.unsplash.com/photo-1528323273322-d81458248d40?w=200&q=80', desc: 'Cardboard boxes and paper waste left on the sidewalk.' },
-  { id: 4, lat: 12.8195, lng: 80.0465, severity: 'High', status: 'Reported', photo: 'https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?w=200&q=80', desc: 'Industrial runoff and paint cans dumped near the drainage.' },
-  { id: 5, lat: 12.8240, lng: 80.0470, severity: 'Medium', status: 'Cleaned', photo: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=200&q=80', desc: 'Regular household garbage bags piling up outside the hostel.' },
-  { id: 6, lat: 12.8260, lng: 80.0445, severity: 'Low', status: 'Reported', photo: 'https://images.unsplash.com/photo-1595278069441-2cf29f8005a4?w=200&q=80', desc: 'A few scattered plastic bottles in the park area.' }
+  { id: 1, lat: 28.6139, lng: 77.2090, severity: 'High', status: 'Reported', photo: 'https://images.unsplash.com/photo-1530587191325-3db32d826c18?w=200&q=80', desc: 'Massive pile of plastic dumped near Connaught Place.' },
+  { id: 2, lat: 19.0760, lng: 72.8777, severity: 'Medium', status: 'Reported', photo: 'https://images.unsplash.com/photo-1605600659908-0ef719419d41?w=200&q=80', desc: 'Overflowing bins near Andheri station, stray dogs scattering it.' },
+  { id: 3, lat: 12.9716, lng: 77.5946, severity: 'Low', status: 'In Progress', photo: 'https://images.unsplash.com/photo-1528323273322-d81458248d40?w=200&q=80', desc: 'Cardboard boxes left on the sidewalk in Indiranagar.' },
+  { id: 4, lat: 13.0827, lng: 80.2707, severity: 'High', status: 'Reported', photo: 'https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?w=200&q=80', desc: 'Industrial runoff dumped near the Chennai Central drainage.' },
+  { id: 5, lat: 22.5726, lng: 88.3639, severity: 'Medium', status: 'Cleaned', photo: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=200&q=80', desc: 'Household garbage bags piling up outside the Park Street market.' },
+  { id: 6, lat: 17.3850, lng: 78.4867, severity: 'Low', status: 'Reported', photo: 'https://images.unsplash.com/photo-1595278069441-2cf29f8005a4?w=200&q=80', desc: 'A few scattered plastic bottles in Lumbini Park.' }
 ];
