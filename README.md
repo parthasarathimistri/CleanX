@@ -39,6 +39,7 @@ src/
 ├── index.css           # Tailwind directives & Custom Animations
 └── main.jsx            # React Entry Point
 
+
 ---
 Partha Sarathi Mistri
 Akshita Guha Thakurta
