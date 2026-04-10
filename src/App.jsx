@@ -9,7 +9,6 @@ import { Camera, Sparkles, Loader2, MapPin, ShieldCheck } from 'lucide-react';
 const getIcon = (severity, status) => {
   let color = severity === 'High' ? '#ef4444' : severity === 'Medium' ? '#f97316' : '#22c55e';
   if (status === 'Cleaned') color = '#4b5563'; 
-  
   return L.divIcon({
     className: 'custom-icon',
     html: `<div style="background-color: ${color}; width: 20px; height: 20px; border-radius: 50%; border: 2px solid #111827; box-shadow: 0 0 15px ${color}; ${severity === 'High' && status !== 'Cleaned' ? 'animation: pulse 2s infinite;' : ''}"></div>`,
