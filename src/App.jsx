@@ -10,6 +10,7 @@ import Dashboard from './components/Dashboard';
 import confetti from 'canvas-confetti';
 import { Zap } from 'lucide-react';
 
+
 export default function App() {
   const [user] = useAuthState(auth);
   const [reports, setReports] = useState([]);
