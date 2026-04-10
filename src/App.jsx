@@ -11,7 +11,6 @@ import confetti from 'canvas-confetti';
 const getIcon = (severity, status) => {
   let color = severity === 'High' ? '#ef4444' : severity === 'Medium' ? '#f97316' : '#22c55e';
   if (status === 'Cleaned') color = '#4b5563'; 
-  
   return L.divIcon({
     className: 'custom-icon',
     html: `<div style="background-color: ${color}; width: 22px; height: 22px; border-radius: 50%; border: 3px solid #0f172a; box-shadow: 0 0 20px ${color}; ${severity === 'High' && status !== 'Cleaned' ? 'animation: pulse 2s infinite;' : ''}"></div>`,
@@ -19,6 +18,8 @@ const getIcon = (severity, status) => {
     iconAnchor: [11, 11]
   });
 };
+
+// Component to handle asking for GPS on load and flying to user location
 const LocationInitializer = () => {
   const map = useMap();
   useEffect(() => {
